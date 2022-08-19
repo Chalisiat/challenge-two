@@ -1,1 +1,48 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url(purple-bubble-background-5.jpg);
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image */
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font: size 2rem;
+}
+.hero-text {
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+
+/* spacing on all section */
+/* #about, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+/* footer styling */
+#footer {
+    text-align: center;
+    background-color: black;  
+}
+
+
 
